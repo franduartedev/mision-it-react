@@ -1,16 +1,39 @@
-# React + Vite
+# Misión IT — práctica con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación de práctica para gestionar una lista temporal de personas mediante formularios y estado de React.
 
-Currently, two official plugins are available:
+## Funcionalidades observables
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Agregar nombres entre 3 y 20 caracteres.
+- Mostrar mensajes de validación.
+- Editar o eliminar un nombre.
+- Cancelar una edición.
 
-## React Compiler
+Los datos se mantienen en el estado de la aplicación y se pierden al recargar la página.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- Vite
+- Oxlint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Ejecución local
+
+Requiere Node.js y npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Comprobaciones disponibles:
+
+```bash
+npm run lint
+npm run build
+```
+
+## Alcance
+
+Ejercicio de fundamentos de React: formularios, estado, validación y renderizado condicional. No es un sistema de gestión de usuarios ni almacena datos en un servidor.
